@@ -1,0 +1,12 @@
+{
+  "name": "Unsystemet",
+  "version": "0.1",
+  "description": "See the Untappd rating of beers on systembolaget.se!",
+  "permissions": ["activeTab"],
+  "content_scripts": [{
+      "matches": ["https://*.systembolaget.se/*"],
+      "js": ["src/content-script.js"]
+    }
+  ],
+  "manifest_version": 2
+}
