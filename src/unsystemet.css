@@ -1,0 +1,20 @@
+.unsystemet {
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: .5rem;
+  justify-content: center;
+}
+
+.unsystemet-score {
+  background: #fc0;
+  text-align: center;
+  padding: 0.25rem .5rem;
+}
+
+.unsystemet-rated-by {
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.9;
+  color: #212529;
+  font-family: RobotoCondensed-Regular;
+}

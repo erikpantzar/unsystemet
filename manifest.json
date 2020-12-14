@@ -5,7 +5,8 @@
   "permissions": ["activeTab"],
   "content_scripts": [{
       "matches": ["https://*.systembolaget.se/*"],
-      "js": ["src/content-script.js"]
+      "js": ["src/content-script.js"],
+      "css": ["src/unsystemet.css"]
     }
   ],
   "manifest_version": 2
